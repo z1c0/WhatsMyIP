@@ -1,0 +1,6 @@
+D:\GitHub\WhatsMyIP\WhatsMyIP.Service\bin\Debug\WhatsMyIP.Service.exe.config
+D:\GitHub\WhatsMyIP\WhatsMyIP.Service\bin\Debug\WhatsMyIP.Service.exe
+D:\GitHub\WhatsMyIP\WhatsMyIP.Service\bin\Debug\WhatsMyIP.Service.pdb
+D:\GitHub\WhatsMyIP\WhatsMyIP.Service\obj\Debug\WhatsMyIP.Service.csprojResolveAssemblyReference.cache
+D:\GitHub\WhatsMyIP\WhatsMyIP.Service\obj\Debug\WhatsMyIP.Service.exe
+D:\GitHub\WhatsMyIP\WhatsMyIP.Service\obj\Debug\WhatsMyIP.Service.pdb
