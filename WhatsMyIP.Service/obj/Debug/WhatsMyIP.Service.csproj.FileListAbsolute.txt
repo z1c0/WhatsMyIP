@@ -4,3 +4,7 @@ D:\GitHub\WhatsMyIP\WhatsMyIP.Service\bin\Debug\WhatsMyIP.Service.pdb
 D:\GitHub\WhatsMyIP\WhatsMyIP.Service\obj\Debug\WhatsMyIP.Service.csprojResolveAssemblyReference.cache
 D:\GitHub\WhatsMyIP\WhatsMyIP.Service\obj\Debug\WhatsMyIP.Service.exe
 D:\GitHub\WhatsMyIP\WhatsMyIP.Service\obj\Debug\WhatsMyIP.Service.pdb
+D:\GitHub\WhatsMyIP\WhatsMyIP.Service\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+D:\GitHub\WhatsMyIP\WhatsMyIP.Service\bin\Debug\Newtonsoft.Json.dll
+D:\GitHub\WhatsMyIP\WhatsMyIP.Service\bin\Debug\Microsoft.AspNet.SignalR.Client.xml
+D:\GitHub\WhatsMyIP\WhatsMyIP.Service\bin\Debug\Newtonsoft.Json.xml

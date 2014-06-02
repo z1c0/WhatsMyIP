@@ -15,4 +15,15 @@ D:\GitHub\WhatsMyIP\WhatsMyIP.Web\bin\Microsoft.Owin.Security.xml
 D:\GitHub\WhatsMyIP\WhatsMyIP.Web\bin\Newtonsoft.Json.xml
 D:\GitHub\WhatsMyIP\WhatsMyIP.Web\obj\Debug\WhatsMyIP.Web.dll
 D:\GitHub\WhatsMyIP\WhatsMyIP.Web\obj\Debug\WhatsMyIP.Web.pdb
-D:\GitHub\WhatsMyIP\WhatsMyIP.Web\obj\Debug\WhatsMyIP.Web.csprojResolveAssemblyReference.cache
+D:\GitHub\WhatsMyIP\WhatsMyIP.Web\bin\System.Web.Helpers.dll
+D:\GitHub\WhatsMyIP\WhatsMyIP.Web\bin\System.Web.Razor.dll
+D:\GitHub\WhatsMyIP\WhatsMyIP.Web\bin\System.Web.WebPages.Deployment.dll
+D:\GitHub\WhatsMyIP\WhatsMyIP.Web\bin\System.Web.WebPages.dll
+D:\GitHub\WhatsMyIP\WhatsMyIP.Web\bin\System.Web.WebPages.Razor.dll
+D:\GitHub\WhatsMyIP\WhatsMyIP.Web\bin\System.Web.Helpers.xml
+D:\GitHub\WhatsMyIP\WhatsMyIP.Web\bin\System.Web.Razor.xml
+D:\GitHub\WhatsMyIP\WhatsMyIP.Web\bin\System.Web.WebPages.xml
+D:\GitHub\WhatsMyIP\WhatsMyIP.Web\bin\System.Web.WebPages.Deployment.xml
+D:\GitHub\WhatsMyIP\WhatsMyIP.Web\bin\System.Web.WebPages.Razor.xml
+D:\GitHub\WhatsMyIP\WhatsMyIP.Web\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\GitHub\WhatsMyIP\WhatsMyIP.Web\bin\Microsoft.AspNet.SignalR.SystemWeb.xml

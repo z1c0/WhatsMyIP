@@ -5,9 +5,26 @@ namespace WhatsMyIP.Web
 {
   public class GetIpHub : Hub
   {
-    public async Task<string> GetIp()
+    public void RetrieveIp()
     {
-      return await Clients.Others.GetIp();
+      Clients.Others.retrieveIp();
+    }
+    
+    public void UpdateIp()
+    {
+      Clients.Others.updateIp(GetIpAddress());
+    }
+
+    private string GetIpAddress()
+    {
+      var ipAddress = string.Empty;
+      object tempObject;
+      Context.Request.Environment.TryGetValue("server.RemoteIpAddress", out tempObject);
+      if (tempObject != null)
+      {
+        ipAddress = (string)tempObject;
+      }
+      return ipAddress;
     }
   }
 }

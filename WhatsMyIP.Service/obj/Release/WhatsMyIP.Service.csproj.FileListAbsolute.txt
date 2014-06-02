@@ -1,0 +1,12 @@
+D:\GitHub\WhatsMyIP\WhatsMyIP.Service\bin\Release\WhatsMyIP.Service.exe.config
+D:\GitHub\WhatsMyIP\WhatsMyIP.Service\bin\Release\WhatsMyIP.Service.exe
+D:\GitHub\WhatsMyIP\WhatsMyIP.Service\bin\Release\WhatsMyIP.Service.pdb
+D:\GitHub\WhatsMyIP\WhatsMyIP.Service\bin\Release\Microsoft.AspNet.SignalR.Client.dll
+D:\GitHub\WhatsMyIP\WhatsMyIP.Service\bin\Release\Newtonsoft.Json.dll
+D:\GitHub\WhatsMyIP\WhatsMyIP.Service\bin\Release\Microsoft.AspNet.SignalR.Client.xml
+D:\GitHub\WhatsMyIP\WhatsMyIP.Service\bin\Release\Newtonsoft.Json.xml
+D:\GitHub\WhatsMyIP\WhatsMyIP.Service\obj\Release\WhatsMyIP.Service.exe
+D:\GitHub\WhatsMyIP\WhatsMyIP.Service\obj\Release\WhatsMyIP.Service.pdb
+D:\GitHub\WhatsMyIP\WhatsMyIP.Service\obj\Release\WhatsMyIP.Service.csprojResolveAssemblyReference.cache
+D:\GitHub\WhatsMyIP\WhatsMyIP.Service\obj\Release\WhatsMyIP.Service.ProjectInstaller.resources
+D:\GitHub\WhatsMyIP\WhatsMyIP.Service\obj\Release\WhatsMyIP.Service.csproj.GenerateResource.Cache

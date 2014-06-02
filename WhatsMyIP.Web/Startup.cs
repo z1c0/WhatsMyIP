@@ -1,4 +1,5 @@
-﻿using Microsoft.Owin;
+﻿using Microsoft.AspNet.SignalR;
+using Microsoft.Owin;
 using Owin;
 
 namespace WhatsMyIP.Web
@@ -8,7 +9,10 @@ namespace WhatsMyIP.Web
   {
     public void Configuration(IAppBuilder app)
     {
-      app.MapSignalR();
+      app.MapSignalR(new HubConfiguration()
+      {
+        //EnableJavaScriptProxies = false
+      });
     }
   }
 }
