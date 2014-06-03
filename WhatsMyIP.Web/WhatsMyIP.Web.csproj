@@ -114,6 +114,13 @@
     <Content Include="Scripts\jquery-2.1.1.js" />
     <Content Include="Scripts\jquery-2.1.1.min.js" />
     <Content Include="Scripts\jquery-2.1.1.min.map" />
+    <Content Include="Styles\Site.css">
+      <DependentUpon>Site.less</DependentUpon>
+    </Content>
+    <Content Include="Styles\Site.less" />
+    <Content Include="Styles\Site.css.map">
+      <DependentUpon>Site.css</DependentUpon>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -130,6 +137,9 @@
     </Content>
     <Content Include="Scripts\SignalR.min.js">
       <DependentUpon>SignalR.js</DependentUpon>
+    </Content>
+    <Content Include="Styles\Site.min.css">
+      <DependentUpon>Site.css</DependentUpon>
     </Content>
     <Content Include="Web.config">
       <SubType>Designer</SubType>

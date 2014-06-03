@@ -11969,7 +11969,7 @@ return jQuery;
         proxies.getIpHub = this.createHubProxy('getIpHub'); 
         proxies.getIpHub.client = { };
         proxies.getIpHub.server = {
-            retrieveIp: function () {
+            retrieveIp: function (key) {
                 return proxies.getIpHub.invoke.apply(proxies.getIpHub, $.merge(["RetrieveIp"], $.makeArray(arguments)));
              },
 
@@ -12001,7 +12001,9 @@ $(function () {
   $.connection.hub.start().done(function () {
     console.log("Now connected, connection ID=" + $.connection.hub.id);
 
-    getIpHubProxy.server.retrieveIp();
+    var key = $("#ip").attr("data-sharedKey");
+    console.log("key: " + key);
+    getIpHubProxy.server.retrieveIp(key);
 
   }).fail(function () {
     console.log("Could not connect");

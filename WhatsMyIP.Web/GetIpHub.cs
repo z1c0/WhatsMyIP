@@ -5,9 +5,9 @@ namespace WhatsMyIP.Web
 {
   public class GetIpHub : Hub
   {
-    public void RetrieveIp()
+    public void RetrieveIp(string key)
     {
-      Clients.Others.retrieveIp();
+      Clients.Others.retrieveIp(key);
     }
     
     public void UpdateIp()

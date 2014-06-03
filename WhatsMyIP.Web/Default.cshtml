@@ -1,20 +1,22 @@
 ﻿@{
   Layout = null;
+
+  var sharedKey = (HttpContext.Current.Request.QueryString["sharedKey"] ?? string.Empty).Trim();
 }
 
 <!DOCTYPE html>
 
 <html>
+
 <head>
   <meta name="viewport" content="width=device-width" />
-  <title></title>
+  <link href="~/Styles/Site.min.css" rel="stylesheet" />
+  <title>Get My Ip</title>
 </head>
 
 <body>
 
-  <h1 id="ip">IP Address</h1>
-  <div>
-  </div>
+  <h1 id="ip" data-sharedKey="@sharedKey">IP Address</h1>
 
   <script src="/Scripts/SignalR.min.js"></script>
 

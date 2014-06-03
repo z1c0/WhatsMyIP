@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Configuration;
 using System.Data;
 using System.Diagnostics;
 using System.Linq;
@@ -14,22 +15,30 @@ namespace WhatsMyIP.Service
   public partial class MyIpService : ServiceBase
   {
     private HubConnection _hubConnection;
+    private readonly string _sharedSecret;
 
     public MyIpService()
     {
       InitializeComponent();
+      _sharedSecret = ConfigurationSettings.AppSettings["SharedSecret"];
     }
 
     internal void Start()
     {
-      OnStart(null);      
+      OnStart(null);
     }
 
     protected async override void OnStart(string[] args)
     {
       _hubConnection = new HubConnection("http://whatsmypublicip.azurewebsites.net/");
       var hubProxy = _hubConnection.CreateHubProxy("GetIpHub");
-      hubProxy.On("retrieveIp", () => hubProxy.Invoke("UpdateIp"));
+      hubProxy.On("retrieveIp", (key) =>
+      {
+        if (key == _sharedSecret)
+        {
+          hubProxy.Invoke("UpdateIp");
+        }
+      });
       await _hubConnection.Start();
     }    
 

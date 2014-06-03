@@ -16,6 +16,8 @@ namespace WhatsMyIP.Service
       if (Environment.UserInteractive)
       {
         serviceToRun.Start();
+        Console.WriteLine("... press <ENTER> to quit");
+        Console.ReadLine();
         serviceToRun.Stop();
       }
       else

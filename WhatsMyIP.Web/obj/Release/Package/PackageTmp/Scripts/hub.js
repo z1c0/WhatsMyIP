@@ -81,7 +81,7 @@
         proxies.getIpHub = this.createHubProxy('getIpHub'); 
         proxies.getIpHub.client = { };
         proxies.getIpHub.server = {
-            retrieveIp: function () {
+            retrieveIp: function (key) {
                 return proxies.getIpHub.invoke.apply(proxies.getIpHub, $.merge(["RetrieveIp"], $.makeArray(arguments)));
              },
 
