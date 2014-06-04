@@ -13,9 +13,12 @@
   $.connection.hub.start().done(function () {
     console.log("Now connected, connection ID=" + $.connection.hub.id);
 
-    var key = $("#ip").attr("data-sharedKey");
-    console.log("key: " + key);
-    getIpHubProxy.server.retrieveIp(key);
+    $("#btnIp").click(function () {
+      var key = $('#textKeyForIp').val();
+      console.log("key: " + key);
+      getIpHubProxy.server.retrieveIp(key);
+      return false;
+    });
 
   }).fail(function () {
     console.log("Could not connect");
