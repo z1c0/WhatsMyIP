@@ -1,9 +1,0 @@
-{
-  "version": 3,
-  "file": "Site.css",
-  "sources": [
-    "Site.less"
-  ],
-  "names": [],
-  "mappings": "AAAA;EACE,yBAAA;EACA,iBAAA;;AAGF;EACE,aAAa,eAAe,uBAAuB,iBAAiB,kDAApE;EACA,mBAAA;EACA,oBAAA"
-}
