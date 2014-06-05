@@ -14,7 +14,7 @@
     console.log("Now connected, connection ID=" + $.connection.hub.id);
 
     $("#btnIp").click(function () {
-      $("#ip").text("... retrieving");
+      $("#ip").text("... retrieving IP");
       var key = $('#textKeyForIp').val();
       console.log("key: " + key);
       getIpHubProxy.server.retrieveIp(key);
