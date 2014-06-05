@@ -9,18 +9,44 @@
 <html>
 
 <head>
-  <meta name="viewport" content="width=device-width" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
   <link href="~/Styles/Site.min.css" rel="stylesheet" />
+  <meta name="author" content="Wolfgang Ziegler">
   <title>Get My Ip</title>
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
 </head>
 
 <body>
 
-  <h1 id="ip">IP Address</h1>
 
-  <div>
-    <input id="textKeyForIp" type="text" placeholder="key" />
-    <button id="btnIp">Retrieve IP</button>
+  <div class="container">
+    <div class="header">
+      <h3 class="text-muted">Get My IP</h3>
+    </div>
+
+
+    <div class="jumbotron">
+      <form class="form-sendkey" role="form">
+        <label>Enter shared key to retrieve the public IP address of your remotely connected host.</label>
+        <input id="textKeyForIp" type="password" class="form-control" placeholder="shared key" required />
+        <button id="btnIp" class="btn btn-lg btn-success btn-block" type="button">Retrieve IP</button>
+        <h2 id="ip">...</h2>
+      </form>
+    </div>
+
+    <div class="footer">
+      <p>&copy; <a href="http://wolfgang-ziegler.com">Wolfgang Ziegler</a> @DateTime.Now.Year</p>
+    </div>
+
   </div>
 
   <script src="/Scripts/SignalR.min.js"></script>
@@ -28,3 +54,6 @@
 </body>
 
 </html>
+
+
+

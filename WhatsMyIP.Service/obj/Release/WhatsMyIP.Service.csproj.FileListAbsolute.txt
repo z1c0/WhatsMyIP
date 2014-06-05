@@ -9,3 +9,15 @@ D:\GitHub\WhatsMyIP\WhatsMyIP.Service\obj\Release\WhatsMyIP.Service.exe
 D:\GitHub\WhatsMyIP\WhatsMyIP.Service\obj\Release\WhatsMyIP.Service.pdb
 D:\GitHub\WhatsMyIP\WhatsMyIP.Service\obj\Release\WhatsMyIP.Service.ProjectInstaller.resources
 D:\GitHub\WhatsMyIP\WhatsMyIP.Service\obj\Release\WhatsMyIP.Service.csproj.GenerateResource.Cache
+D:\99-Tests\GitHub\WhatsMyIP\WhatsMyIP.Service\bin\Release\WhatsMyIP.Service.exe.config
+D:\99-Tests\GitHub\WhatsMyIP\WhatsMyIP.Service\bin\Release\WhatsMyIP.Service.exe
+D:\99-Tests\GitHub\WhatsMyIP\WhatsMyIP.Service\bin\Release\WhatsMyIP.Service.pdb
+D:\99-Tests\GitHub\WhatsMyIP\WhatsMyIP.Service\bin\Release\Microsoft.AspNet.SignalR.Client.dll
+D:\99-Tests\GitHub\WhatsMyIP\WhatsMyIP.Service\bin\Release\Newtonsoft.Json.dll
+D:\99-Tests\GitHub\WhatsMyIP\WhatsMyIP.Service\bin\Release\Microsoft.AspNet.SignalR.Client.xml
+D:\99-Tests\GitHub\WhatsMyIP\WhatsMyIP.Service\bin\Release\Newtonsoft.Json.xml
+D:\99-Tests\GitHub\WhatsMyIP\WhatsMyIP.Service\obj\Release\WhatsMyIP.Service.csprojResolveAssemblyReference.cache
+D:\99-Tests\GitHub\WhatsMyIP\WhatsMyIP.Service\obj\Release\WhatsMyIP.Service.ProjectInstaller.resources
+D:\99-Tests\GitHub\WhatsMyIP\WhatsMyIP.Service\obj\Release\WhatsMyIP.Service.csproj.GenerateResource.Cache
+D:\99-Tests\GitHub\WhatsMyIP\WhatsMyIP.Service\obj\Release\WhatsMyIP.Service.exe
+D:\99-Tests\GitHub\WhatsMyIP\WhatsMyIP.Service\obj\Release\WhatsMyIP.Service.pdb
