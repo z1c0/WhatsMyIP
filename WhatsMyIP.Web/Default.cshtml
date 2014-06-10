@@ -36,9 +36,19 @@
 
     <div class="jumbotron">
       <form class="form-sendkey" role="form">
-        <label>Enter your shared key to retrieve the public IP address of your remotely connected host.</label>
+        <label>Enter a shared key to publish or retrieve the IP address of a remotely connected host.</label>
+
+        <div class="btn-group" data-toggle="buttons" id="option_modes">
+          <label class="btn btn-primary active">
+            <input checked type="radio" name="options" id="option_publish" data-value="0">Publish
+          </label>
+          <label class="btn btn-primary">
+            <input type="radio" name="options" id="option_retrieve" data-value="1">Retrieve
+          </label>
+        </div>
+
         <input id="textKeyForIp" type="password" class="form-control" placeholder="shared key" required />
-        <button id="btnIp" class="btn btn-lg btn-success btn-block" type="button">Retrieve IP</button>
+        <button id="btnIp" class="btn btn-lg btn-success btn-block" type="button">Go!</button>
         <h2 id="ip">...</h2>
       </form>
     </div>
@@ -50,6 +60,7 @@
   </div>
 
   <script src="/Scripts/SignalR.min.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
 
 </body>
 

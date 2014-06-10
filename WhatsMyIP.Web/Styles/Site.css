@@ -1,4 +1,4 @@
-﻿.form-sendkey {
+.form-sendkey {
   max-width: 500px;
   padding: 15px;
   margin: 0 auto;
@@ -16,7 +16,8 @@
   padding-bottom: 1em;
 }
 .form-sendkey input[type="password"] {
-  margin-bottom: 10px;
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }

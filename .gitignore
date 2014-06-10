@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/WhatsMyIP.Service/bin/Debug
+/WhatsMyIP.Web/bin
+/WhatsMyIP.Web/obj
+*.user
+*.suo
